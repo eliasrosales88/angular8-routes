@@ -6,12 +6,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FirstPageComponent } from './pages/first-page/first-page.component';
+import { SecondPageComponent } from './pages/second-page/second-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FirstPageComponent
+    FirstPageComponent,
+    SecondPageComponent
   ],
   imports: [
     BrowserModule,
